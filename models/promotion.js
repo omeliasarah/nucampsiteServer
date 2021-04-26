@@ -15,11 +15,11 @@ const promotionSchema = new Schema(
       type: String,
       required: true,
     },
-    fetured: {
+    featured: {
       type: Boolean,
       required: true,
     },
-    const: {
+    cost: {
       type: Currency,
       required: true,
       min: 0,
